@@ -1,4 +1,4 @@
-Front-End Development Test
+#Front-End Development Test
 ● Date selection and fabric selection design is left to your preference, while should be consistent with the
 overall design
 ● After the user picks an input “gray” colored placeholder text should replace with “black” colored text - in
@@ -20,7 +20,7 @@ alignments in IPhone, Ipad, Galaxy, Pixel 5 and similar devices.
 ● Quantity input should have an id exactly equal to “productnumber”
 ● Product type selection dropdown select should have an id exactly equal to “productstyle”
 ● Product type selection dropdown should have type as “text”, not “value”
-Shipping Time Calculation
+# Shipping Time Calculation
 ● Shipping time is calculated based on business days
 ● For “Cotton” and less than 50 pieces, shipping time is 2 business days
 ● For “Cotton” and more than or equal to 50 pieces, shipping time is 3 business days
