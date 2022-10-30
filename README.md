@@ -1,43 +1,43 @@
 # Front-End Development Test
 ● Date selection and fabric selection design is left to your preference, while should be consistent with the
-overall design/
+overall design\
 ● After the user picks an input “gray” colored placeholder text should replace with “black” colored text - in
-consistency with overall design elements/
-● In the “Fabric Type” input field, the arrow should have a distance of 10% with the input box's right border/
+consistency with overall design elements\
+● In the “Fabric Type” input field, the arrow should have a distance of 10% with the input box's right border\
 ● If the user presses calculate without filling in all input types correctly, a pop-up error should come and say
-“Please Fill All Information Correctly”, pop-up design should be consistent with the overall design/
+“Please Fill All Information Correctly”, pop-up design should be consistent with the overall design\
 ● When the user first enters the website, the text below the “Calculate” button should be “Please enter your
 order information to estimate shipping date” and after the calculation is completed the text should turn into
-“Your Estimated Shipping Date is <...>”/
+“Your Estimated Shipping Date is <...>”\
 ● When the user hovers over the “i” button in the “Quantity” section, a small box should appear with the text
-“Shipping Dates May Vary Based on Quantity”/
+“Shipping Dates May Vary Based on Quantity”\
 ● Responsiveness: The design should be responsive to different screen sizes. Most importantly, input field
 forms should switch to vertical distribution instead of horizontal distribution at smaller screen sizes.
 Blue/Purple gradient design should take a smaller percentage of the screen in lower width and mobile
 screens. Gradients shouldn't interfere with the text and the design should preserve aesthetics and
-alignments in IPhone, Ipad, Galaxy, Pixel 5 and similar devices.
-● Order date picker input should have an id exactly equal to “datepicker”
-● Quantity input should have an id exactly equal to “productnumber”
-● Product type selection dropdown select should have an id exactly equal to “productstyle”
-● Product type selection dropdown should have type as “text”, not “value”
+alignments in IPhone, Ipad, Galaxy, Pixel 5 and similar devices.\
+● Order date picker input should have an id exactly equal to “datepicker”\
+● Quantity input should have an id exactly equal to “productnumber”\
+● Product type selection dropdown select should have an id exactly equal to “productstyle”\
+● Product type selection dropdown should have type as “text”, not “value”\
 # Shipping Time Calculation
-● Shipping time is calculated based on business days
-● For “Cotton” and less than 50 pieces, shipping time is 2 business days
-● For “Cotton” and more than or equal to 50 pieces, shipping time is 3 business days
-● For “Linen” and less than 50 pieces, shipping time is 4 business days
-● For “Linen” and more than or equal to 50 pieces, shipping time is 5 business days
-● Example for shipping in 2 business days:
-○ If the order is placed on Monday, the item ships on Wednesday
-○ If the order is placed on Wednesday, the item ships on Friday
-○ If the order is placed on Friday, the item ships on next week’s Tuesday
-○ If the order is placed on Saturday or Sunday, the item ships on next week’s Tuesday
+● Shipping time is calculated based on business days\
+● For “Cotton” and less than 50 pieces, shipping time is 2 business days\
+● For “Cotton” and more than or equal to 50 pieces, shipping time is 3 business days\
+● For “Linen” and less than 50 pieces, shipping time is 4 business days\
+● For “Linen” and more than or equal to 50 pieces, shipping time is 5 business days\
+● Example for shipping in 2 business days:\
+○ If the order is placed on Monday, the item ships on Wednesday\\\\
+○ If the order is placed on Wednesday, the item ships on Friday\\\
+○ If the order is placed on Friday, the item ships on next week’s Tuesday\\
+○ If the order is placed on Saturday or Sunday, the item ships on next week’s Tuesday\
 ● Bonus Calculation: To get bonus points you can integrate these two dates (for all years) as National
-Holidays, which means they won’t count as business days.
+Holidays, which means they won’t count as business days.\
 ○ July 4th and December 25th (assume all other weekdays are business days except for these two
-dates)
+dates)\
 ○ Example: The item ships in 2 business days, today is July 2nd, and is Monday, the item will be
 shipped on July 5th Thursday instead of July 4th Wednesday. If the 4th of July is a Saturday that
-year, it wouldn’t change the calculation.
+year, it wouldn’t change the calculation.\
 
 
 # Getting Started with Create React App
