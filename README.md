@@ -19,7 +19,8 @@ alignments in IPhone, Ipad, Galaxy, Pixel 5 and similar devices.\
 ● Order date picker input should have an id exactly equal to “datepicker”\
 ● Quantity input should have an id exactly equal to “productnumber”\
 ● Product type selection dropdown select should have an id exactly equal to “productstyle”\
-● Product type selection dropdown should have type as “text”, not “value”\
+● Product type selection dropdown should have type as “text”, not “value”
+
 # Shipping Time Calculation
 ● Shipping time is calculated based on business days\
 ● For “Cotton” and less than 50 pieces, shipping time is 2 business days\
