@@ -37,7 +37,7 @@ Holidays, which means they won’t count as business days.\
 dates)\
 ○ Example: The item ships in 2 business days, today is July 2nd, and is Monday, the item will be
 shipped on July 5th Thursday instead of July 4th Wednesday. If the 4th of July is a Saturday that
-year, it wouldn’t change the calculation.\
+year, it wouldn’t change the calculation.
 
 
 # Getting Started with Create React App
