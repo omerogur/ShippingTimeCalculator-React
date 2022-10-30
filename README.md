@@ -1,16 +1,16 @@
-#Front-End Development Test
+# Front-End Development Test
 ● Date selection and fabric selection design is left to your preference, while should be consistent with the
-overall design
+overall design/
 ● After the user picks an input “gray” colored placeholder text should replace with “black” colored text - in
-consistency with overall design elements
-● In the “Fabric Type” input field, the arrow should have a distance of 10% with the input box's right border
+consistency with overall design elements/
+● In the “Fabric Type” input field, the arrow should have a distance of 10% with the input box's right border/
 ● If the user presses calculate without filling in all input types correctly, a pop-up error should come and say
-“Please Fill All Information Correctly”, pop-up design should be consistent with the overall design
+“Please Fill All Information Correctly”, pop-up design should be consistent with the overall design/
 ● When the user first enters the website, the text below the “Calculate” button should be “Please enter your
 order information to estimate shipping date” and after the calculation is completed the text should turn into
-“Your Estimated Shipping Date is <...>”
+“Your Estimated Shipping Date is <...>”/
 ● When the user hovers over the “i” button in the “Quantity” section, a small box should appear with the text
-“Shipping Dates May Vary Based on Quantity”
+“Shipping Dates May Vary Based on Quantity”/
 ● Responsiveness: The design should be responsive to different screen sizes. Most importantly, input field
 forms should switch to vertical distribution instead of horizontal distribution at smaller screen sizes.
 Blue/Purple gradient design should take a smaller percentage of the screen in lower width and mobile
