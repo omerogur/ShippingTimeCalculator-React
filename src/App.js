@@ -19,16 +19,27 @@ function App() {
   const [type, setType] = useState("");
   const [count, setCount] = useState("");
   const [orders, setOrders] = useState([]);
+  const [isShown, setIsShown] = useState(false);
   const [status, setStatus] = useState({
     inputStatus: true,
     dateStatus: true,
     typeStatus: true,
   });
 
+
   const errorStyle = {
     border: "4px solid red",
     borderRadius: "30px",
   };
+
+  const  pStyle = {
+    display: "flex",
+    position: "absolute",
+    top: "620px",
+    bordeRadius: "30px",
+    left: "650px",
+    border: "1px solid burlywood"
+  }
 
   const handleClick = () => {
     let selectDate = moment(dateValue);
@@ -137,15 +148,19 @@ function App() {
             />
           </Grid.Col>
           <Grid.Col span={2}>
+             {isShown && <p style={pStyle}>Shipping Dates May Vary Based on Quantity</p>}
             <Input
               style={status.inputStatus ? {} : errorStyle}
               placeholder="Quantity"
               radius="xl"
               size="xl"
               onChange={(e) => inputChange(e.target.value)}
+              
               value={count}
               rightSection={
                 <IconInfoCircle
+                onMouseOver={() => setIsShown(true)}
+                onMouseLeave={() => setIsShown(false)}
                   style={{ size: "15px", color: "gray", marginRight: "1rem" }}
                 />
               }
