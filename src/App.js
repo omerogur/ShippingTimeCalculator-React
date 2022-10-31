@@ -82,8 +82,9 @@ function App() {
   };
 
   const inputChange = (e) => {
-    if (e > 100 || e < 1) {
+    if (e >= 100 || e < 1) {
       setStatus((prev) => {
+        console.log("11");
         return { ...prev, inputStatus: false };
       });
       console.log("hatalı giris", status.inputStatus);
