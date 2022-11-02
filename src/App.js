@@ -99,7 +99,7 @@ function App() {
   const onChange = (date) => {
     setDateValue(date);
   };
-  console.log(new Date());
+  
   return (
     <div className="App">
       <div className="co1">
