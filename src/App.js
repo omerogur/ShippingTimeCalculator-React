@@ -79,7 +79,7 @@ function App() {
   const handleSelect = (value) => {
     console.log(value);
     setType(value);
-  };
+  };  
 
   const inputChange = (e) => {
     if (e >= 100 || e < 1) {
@@ -99,6 +99,7 @@ function App() {
   const onChange = (date) => {
     setDateValue(date);
   };
+  console.log(new Date());
   return (
     <div className="App">
       <div className="co1">
@@ -117,10 +118,8 @@ function App() {
               style={status.dateStatus ? {} : errorStyle}
               radius="xl"
               size="xl"
-              minDate={dayjs(new Date())
-                .endOf("month")
-                .subtract(1, "days")
-                .toDate()}
+              minDate={new Date()
+                }
               onChange={onChange}
               value={dateValue}
               rightSection={
