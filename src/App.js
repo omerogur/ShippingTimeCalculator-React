@@ -175,13 +175,13 @@ function App() {
 
       {orders.length > 0 ? (
         <div>
-          {orders &&
+          {
             orders.map((item, index) => {
               return (
                 <div key={index}>
                   <h3>
-                    Your Estimated Shipping Time Is
-                    <strong>{` ${item.day} ${item.month} ${item.year}`}</strong>
+                    Your Estimated Shipping Time Is&nbsp;
+                    <strong>{`${item.day} ${item.month} ${item.year}`}</strong>
                   </h3>
                 </div>
               );
