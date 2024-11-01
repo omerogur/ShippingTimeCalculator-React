@@ -87,17 +87,18 @@ function App() {
         console.log("11");
         return { ...prev, inputStatus: false };
       });
-      console.log("hatalı giris", status.inputStatus);
+      console.log("hatalÄ± giris", status.inputStatus);
     } else {
       setStatus((prev) => {
         return { ...prev, inputStatus: true };
       });
-      console.log("başarılı");
+      console.log("baÅarÄ±lÄ±");
     }
     setCount(e);
   };
   const onChange = (date) => {
     setDateValue(date);
+    console.log("qwe")
   };
   
   return (
