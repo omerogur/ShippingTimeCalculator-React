@@ -87,18 +87,18 @@ function App() {
         console.log("11");
         return { ...prev, inputStatus: false };
       });
-      console.log("hatalÄ± giris", status.inputStatus);
+      console.log("hatalÃÂ± giris", status.inputStatus);
     } else {
       setStatus((prev) => {
         return { ...prev, inputStatus: true };
       });
-      console.log("baÅarÄ±lÄ±");
+      console.log("baÃÂarÃÂ±lÃÂ±");
     }
     setCount(e);
   };
   const onChange = (date) => {
     setDateValue(date);
-    console.log("qwe")
+    console.log("omerlog")
   };
   
   return (
