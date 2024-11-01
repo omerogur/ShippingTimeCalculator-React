@@ -99,6 +99,7 @@ function App() {
   const onChange = (date) => {
     setDateValue(date);
     console.log("omerlog")
+    console.log("omer2222log")
   };
   
   return (
